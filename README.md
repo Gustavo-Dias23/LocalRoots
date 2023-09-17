@@ -19,7 +19,16 @@ Nossa plataforma unificada oferece um espaço de interação e aprendizado para 
  * HiveMQ;
 
  ## ⚙ Instruções
- * Baixe o simulador SimulIDE e carregue o arquivo
+ * Baixe o simulador SimulIDE e carregue o arquivo DHT11-LocalRoots.sim1
+ * Coloque a porta desejada no serial port
+ * Carregeue no arduino uno o arquivo sketch_sep16a.ino.hex
+ * Inicie o projeto e abra a serial port
+   Caso não tenha node-red instalado na máquina:
+   * Faça a instalação do Node.js
+   * Abra o cmd e digite npm install -g --unsafe-perm node-red
+ *  
+  
+
 
  ## ⚙ Rodando o projeto
  Para rodar o projeto é necessário entrar neste link:
