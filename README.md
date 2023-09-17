@@ -1,6 +1,6 @@
-# HopeMakers
+# LocalRoots
 
-<h1 align="center"> Dispositivo para gestão de estoque </h1>
+<h1 align="center"> Dispositivo para gerenciamento de temperatura </h1>
 
 
 ## ⌨ Descrição  
