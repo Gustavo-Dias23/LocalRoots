@@ -38,4 +38,4 @@ Nossa plataforma unificada oferece um espaço de interação e aprendizado para 
 
  ## ⚙ Ver o projeto
  Para ver o projeto entre neste link:
- https://www.youtube.com/watch?v=UiV-A6u5h7E&ab_channel=GustavoDias
+ https://youtu.be/UiV-A6u5h7E?si=zJdEDWLVPbXVHaJg
