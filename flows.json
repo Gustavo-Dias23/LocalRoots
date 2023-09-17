@@ -1,0 +1,89 @@
+[
+    {
+        "id": "24fa96f5128c9896",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e52065c9f3186253",
+        "type": "serial in",
+        "z": "24fa96f5128c9896",
+        "name": "",
+        "serial": "76b095f6c2712228",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "21dbd41e82bfa32d"
+            ]
+        ]
+    },
+    {
+        "id": "21dbd41e82bfa32d",
+        "type": "mqtt out",
+        "z": "24fa96f5128c9896",
+        "name": "",
+        "topic": "sprint/fiap/localroots",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "60d977ddf085c4e5",
+        "x": 780,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "76b095f6c2712228",
+        "type": "serial-port",
+        "serialport": "COM4",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "60d977ddf085c4e5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "GusLocalRoots",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": "",
+        "credentials": {}
+    }
+]
