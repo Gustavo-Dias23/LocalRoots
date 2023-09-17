@@ -19,8 +19,8 @@ Nossa plataforma unificada oferece um espaço de interação e aprendizado para 
  * HiveMQ;
 
  ## ⚙ Instruções
- * Baixe o simulador SimulIDE e construa o circuito como
+ * Baixe o simulador SimulIDE e carregue o arquivo
 
- ## ⚙ Rodando o projeto 
+ ## ⚙ Rodando o projeto
  Para rodar o projeto é necessário entrar neste link:
  https://www.tinkercad.com/things/irSsd3RMA52-hopemakers-gs/editel
